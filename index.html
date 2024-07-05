@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="Style-sheet/Style.css">
+    <link rel="shortcut icon" href="https://i.postimg.cc/s2q09Wtf/IMG-8536-2.png" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="#" class="logo" onclick="refreshPage()">portfolio</a>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#skill">Skill</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contect">Contect</a>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-inside">
+            <img class="home-img" src="https://i.postimg.cc/59mmM3g6/IMG-8536-5.jpg" alt="">
+
+            <h3>Hello this is</h3>
+            <h1>Mehedi Zaman</h1>
+            <h4>I'm a <span id="about-head-text">web developer</span></h4>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequuntur fugiat ducimus, quas quo incidunt
+                repudiandae voluptas illo unde temporibus eum alias obcaecati atque facere assumenda. Recusandae debitis
+                minus atque aspernatur?</p>
+        </div>
+
+        <section class="" id="about">
+            <div class="about">
+                <img class="about-img" src="https://i.postimg.cc/DfxNnnyV/IMG-8537-4-removebg-preview.jpg" alt="">
+
+                <div class="about-text">
+                    <h1 class="about-head-text">About<span class="about-head-text">Me</span> </h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique architecto modi eaque
+                        explicabo adipisci perspiciatis vero, alias cupiditate, nesciunt, nisi sit enim temporibus dicta
+                        tenetur error voluptatem sunt fugiat expedita? Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Optio ut natus architecto ad eius accusamus, atque veniam autem facilis libero
+                        provident at perspiciatis exercitationem, odio excepturi blanditiis dignissimos culpa minima?
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="" id="skill">
+            <div class="skill-section">
+                <div class="skill-head">
+                    <h1>My <span>Skill</span> </h1>
+                </div>
+                <main>
+                    <div class="container-left">
+                        <h2>Tecnical skill</h2>
+                        <div class="tecnical-skills-container">
+                            <div class="skill">
+                                <i style="color: #c95d2e ; font-size: 50px;" class='bx bxl-html5'></i>
+                                <p>HTML</p>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 80%; background-color:#c95d2e ;"
+                                        data-percentage="80%"></div>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <i style="color: #147bbc; font-size: 50px; " class='bx bxl-css3'></i>
+                                <p>CSS</p>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 70%; background-color: #147bbc;"
+                                        data-percentage="70%">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <i style="color: #b0bc1e; font-size: 50px;" class='bx bxl-javascript'></i>
+                                <p>JavaScript</p>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 60%; background-color:   #b0bc1e"
+                                        data-percentage="60%"></div>
+                                </div>
+                            </div>
+                            <div class="skill">
+                                <i style="color: #c32ec9; font-size: 50px;" class='bx bxl-python'></i>
+                                <p>Python</p>
+                                <div class="skill-bar">
+                                    <div class="skill-level" style="width: 60%; background-color:  #c32ec9;"
+                                        data-percentage="60%"></div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="container-right">
+                        <h2> Professional skill</h2>
+
+                        <div class="professional-skill">
+
+                            <div class="skill">
+                                <svg width="100" height="100" class="circle-svg">
+                                    <circle cx="50" cy="50" r="40" class="bg-circle" />
+                                    <circle cx="50" cy="50" r="40" class="progress-circle" style="stroke: #c95d2e;"
+                                        data-percentage="80" />
+                                    <circle cx="50" cy="50" r="33" class="inner-circle" />
+                                    <text x="50%" y="50%" text-anchor="middle" dy=".3em"
+                                        class="percentage-text">80%</text>
+                                </svg>
+                                <p>Presentation</p>
+                            </div>
+                            <div class="skill">
+                                <svg width="100" height="100" class="circle-svg">
+                                    <circle cx="50" cy="50" r="40" class="bg-circle" />
+                                    <circle cx="50" cy="50" r="40" class="progress-circle" style="stroke: #147bbc;"
+                                        data-percentage="90" />
+                                    <circle cx="50" cy="50" r="33" class="inner-circle" />
+                                    <text x="50%" y="50%" text-anchor="middle" dy=".3em"
+                                        class="percentage-text">90%</text>
+                                </svg>
+                                <p>Group Work</p>
+                            </div>
+
+                            <div class="skill">
+                                <svg width="100" height="100" class="circle-svg">
+                                    <circle cx="50" cy="50" r="40" class="bg-circle" />
+                                    <circle cx="50" cy="50" r="40" class="progress-circle" style="stroke: #b0bc1e;"
+                                        data-percentage="85" />
+                                    <circle cx="50" cy="50" r="33" class="inner-circle" />
+                                    <text x="50%" y="50%" text-anchor="middle" dy=".3em"
+                                        class="percentage-text">85%</text>
+                                </svg>
+                                <p>Communication</p>
+                            </div>
+                            <div class="skill">
+                                <svg width="100" height="100" class="circle-svg">
+                                    <circle cx="50" cy="50" r="40" class="bg-circle" />
+                                    <circle cx="50" cy="50" r="40" class="progress-circle" style="stroke: #c32ec9;"
+                                        data-percentage="75" />
+                                    <circle cx="50" cy="50" r="33" class="inner-circle" />
+                                    <text x="50%" y="50%" text-anchor="middle" dy=".3em"
+                                        class="percentage-text">75%</text>
+                                </svg>
+                                <p>MS Office</p>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </main>
+            </div>
+
+        </section>
+        <section class="" id="portfolio">
+            <div class="portfolio">
+                <h1>My letest <span>Project</span> </h1>
+            </div>
+        </section>
+        <script>
+            function refreshPage() {
+                location.reload();
+            }
+        </script>
+</body>
+
+</html>
